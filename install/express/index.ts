@@ -1,9 +1,12 @@
-import express, { Application, Request, Response, NextFunction } from 'express'
 import bodyParser from 'body-parser'
+import * as dotenv from 'dotenv'
+import express, { Application, NextFunction, Request, Response } from 'express'
+
+dotenv.config()
 
 // Boot express
 const app: Application = express()
-const port = 5000
+const port = process.env.PORT || 5000
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())

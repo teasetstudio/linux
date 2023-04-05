@@ -24,6 +24,9 @@ cp $ORIGIN_PATH/package.json ./
 cp $ORIGIN_PATH/.eslintrc ./
 cp $ORIGIN_PATH/.prettierrc ./
 cp $ORIGIN_PATH/.gitignore ./
+cp $ORIGIN_PATH/.env ./
+cp $ORIGIN_PATH/.env.example ./
+cp $ORIGIN_PATH/README.md ./
 cp -a $ORIGIN_PATH/.vscode ./
 cp -a $ORIGIN_PATH/.husky ./
 
