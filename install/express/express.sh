@@ -52,5 +52,6 @@ yarn add -D prettier
 yarn add -D eslint-plugin-prettier
 yarn add -D eslint-plugin-simple-import-sort
 
+chmod 777 ./.husky/pre-commit
 npx husky install
 npm pkg set scripts.prepare="husky install"
