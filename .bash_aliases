@@ -8,6 +8,9 @@ alias h=history
 
 alias sshgen='ssh-keygen -t ed25519 -C "teasetx@gmail.com";cat ~/.ssh/id_ed25519.pub;'
 
+alias killport="fuser -k -n tcp"
+alias setal='cp .bash_aliases ~/.bash_aliases'
+
 # Git
 alias gs='git status'
 alias gco='git checkout'
